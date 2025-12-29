@@ -137,3 +137,4 @@ Thumbs.db
 specs/
 .pytest_cache/
 toon-format/
+public.md

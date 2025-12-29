@@ -11,15 +11,25 @@ cd /path/to/toon_langflow
 # ติดตั้งในโหมด development
 pip install -e .
 
+# ติดตั้งในโหมด production
+pip install .
+
 # หรือติดตั้งจาก requirements.txt
 pip install -r requirements.txt
 ```
 
-### วิธี B: ติดตั้งแบบรันไทม์ใน Langflow
+### วิธี B: ติดตั้งจาก PyPI
+
+```bash
+# ติดตั้งจาก PyPI (เมื่อ publish แล้ว)
+pip install langflow-toon-component
+```
+
+### วิธี C: ติดตั้งแบบรันไทม์ใน Langflow
 
 ```bash
 # เมื่อ Langflow กำลังทำงานอยู่
-pip install toon_format tiktoken xmltodict
+pip install tiktoken xmltodict
 ```
 
 ---
@@ -203,7 +213,7 @@ prompt = """วิเคราะห์ข้อมูลต่อไปนี�
 ### Component ไม่ปรากฏใน Palette
 
 ```bash
-# ตรวจสอบการติดตัอง
+# ตรวจสอบการติดตั้ง
 pip list | grep toon
 
 # ตรวจสอบ path
@@ -218,7 +228,7 @@ langflow run --refresh
 
 ```bash
 # ติดตั้ง dependencies ที่ขาดหาย
-pip install toon_format tiktoken xmltodict
+pip install tiktoken xmltodict
 
 # หรือติดตั้งทั้งหมดจาก requirements
 pip install -r requirements.txt
@@ -253,3 +263,4 @@ print(f"Token reduction: {result.token_reduction} tokens")
 - [TOON Format Specification](https://github.com/toon-format/toon)
 - [Langflow Documentation](https://langflow.org)
 - [Project README](./README.md)
+

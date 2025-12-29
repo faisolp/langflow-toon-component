@@ -16,7 +16,7 @@ A custom Langflow component that converts structured data (JSON, XML, CSV, HTML)
 ### From Source
 
 ```bash
-git clone https://github.com/toon-format/toon.git
+git clone https://github.com/faisolp/langflow-toon-component.git
 cd toon
 pip install -e .
 ```
@@ -28,11 +28,10 @@ pip install -r requirements.txt
 ```
 
 Required packages:
-- `toon_format>=0.1.0` - TOON format encoder/decoder
-- `tiktoken>=0.5.0` - GPT-5 token counting
-- `xmltodict>=0.13.0` - XML parsing
-- `langflow>=0.6.0` - Langflow integration
-- `pytest>=7.0.0` - Testing framework
+- `tiktoken>=0.5.0` - Token counting for optimization analysis
+- `xmltodict>=0.13.0` - XML parsing and conversion
+- `pytest>=7.0.0` - Testing framework (development only)
+- `pytest-cov>=4.0.0` - Test coverage reporting (development only)
 
 ## Usage
 
@@ -212,4 +211,4 @@ MIT License - see LICENSE file for details
 
 - [TOON Format Specification](https://github.com/toon-format/toon)
 - [Langflow Documentation](https://langflow.org)
-- [TOON Python Library](https://pypi.org/project/toon-format/)
+
