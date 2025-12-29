@@ -17,7 +17,7 @@ A custom Langflow component that converts structured data (JSON, XML, CSV, HTML)
 
 ```bash
 git clone https://github.com/faisolp/langflow-toon-component.git
-cd toon
+cd langflow-toon-component
 pip install -e .
 ```
 
