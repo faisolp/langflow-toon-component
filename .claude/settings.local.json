@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(.specify/scripts/bash/create-new-feature.sh:*)",
+      "Bash(mkdir:*)",
+      "Bash(.specify/scripts/bash/setup-plan.sh:*)",
+      "Bash(.specify/scripts/bash/update-agent-context.sh:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(python:*)",
+      "Bash(git clone:*)",
+      "Bash(git commit:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(DEBUG_TOON=1 python3:*)"
+    ]
+  }
+}
